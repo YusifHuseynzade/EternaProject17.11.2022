@@ -1,0 +1,10 @@
+﻿@model Team
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<h1>Detail</h1>
+<h3>Image: <img src="~/assets/img/team/@Model.Image"></h3>
+<h3>Fullname: @Model.FullName</h3>
+<h3>Position: @Model.Position</h3>
+<h3>Description: @Model.Desc</h3>
